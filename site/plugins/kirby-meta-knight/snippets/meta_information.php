@@ -83,7 +83,7 @@
 
 <?php // Open Graph ?>
 
-<meta property="og:title" content="<?= $page->og_title()->or($page->meta_title())->or($site->og_title())->or($site->meta_title())->or($page->title()) ?>">
+<meta property="og:title" content="<?= $full_title ?>">
 
 <meta property="og:description" content="<?= $page->og_description()->or($page->meta_description())->or($site->meta_description()) ?>">
 
@@ -132,7 +132,7 @@
 
 <meta name="twitter:card" content="<?= $page->twitter_card_type()->or($site->twitter_card_type())->value() ?>">
 
-<meta name="twitter:title" content="<?= $page->twitter_title()->or($page->meta_title())->or($site->twitter_title())->or($site->meta_title())->or($page->title()) ?>">
+<meta name="twitter:title" content="<?= $full_title ?>">
 
 <meta name="twitter:description" content="<?= $page->twitter_description()->or($page->meta_description())->or($site->meta_description()) ?>">
 
