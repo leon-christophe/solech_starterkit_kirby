@@ -8,10 +8,10 @@ Je ferais sûrement des updates de temps en temps pour compléter ou pour fourni
 
 Si vous voulez en savoir plus sur mon travail, viendez ici ! 
 
-Mon site est **[là](https://christopheleon.com)**, **[ici](https://christopheleon.com)** ou encore **[là](https://christopheleon.com)**. 
+Travail à l'origine de Bastian Allgeier.
+Allez voir **[ici](https://getkirby.com/)**.
 
-Travail à l'origine de Bastian Allgeier
-Allez voir **[ici](https://getkirby.com/)**
+Mon site est **[là](https://christopheleon.com)**, **[ici](https://christopheleon.com)** ou encore **[là](https://christopheleon.com)**. 
 ---
 
 © 2022 Christophe Léon
