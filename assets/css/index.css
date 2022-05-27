@@ -1,0 +1,73 @@
+/* ------------------------------------------------------- Commun ------------------------------------------------------- */
+
+@import url(fonts/fonts.css);
+@import url(animation.css);
+
+:root {
+  /* On place ici toutes les variables qui sont utiles dans le site (on utilise la syntaxe qui suit)
+  Exemple : --color-main: rgb(125, 151, 184);
+  On peut mettre n'importe quel type de variable : couleur, code rgb, valeur, etc... */
+
+  --color-main: rgb(125, 151, 184);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* On définit ici le style lors du survol de texte dans le site */
+*::selection {
+  color: white;
+  background-color: var(--color-main);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+em {
+  /* Penser à mettre le style de caractère pour les italiques 
+  (em est la balise utilisée pour le texte en italique depuis le panel en markdown) */
+  font-style: italic;
+
+}
+
+strong {
+  /* Penser à mettre le style de caractère pour le texte en gras 
+  (strong est la balise utilisée pour le texte en gras depuis le panel en markdown) */
+  font-style: bold;
+}
+
+/* À modifier si besoin pour la mise en page des listes
+ul, li {
+  list-style: none;
+  padding: 0;
+} */
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+
+/* ------------------------------------------------------ Header ------------------------------------------------------  */
+/* On peut coder ici tout le css relatif au header du site */
+
+
+/* ------------------------------------------------------- Main -------------------------------------------------------  */
+/* On peut coder ici tout le css relatif au contenu du site */
+
+
+/* ---------------------------------------------------- Responsive ----------------------------------------------------- */
+/* Début du responsive pour différents appareils : tablette et Smartphone */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 630px) {
+
+}

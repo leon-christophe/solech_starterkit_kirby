@@ -1,0 +1,11 @@
+title: Site
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    preset: pages
+    unlisted: true
+
+  # seotab est le code utilisé pour faire appel au plugin metak-knight qui sert au référencement du site
+  seotab: seo
